@@ -1,8 +1,10 @@
- 
-it('should keep this one', () => {
-  expect('hello').toMatchSnapshot();
-})
 
-it.only('should add this one', () => {
-  expect('bonjour').toMatchSnapshot();
+describe('group', () => {
+    test('should keep this one', () => {
+        expect('hello').toMatchSnapshot();
+    })
+
+    test('should update this one', () => {
+        expect('bonjour').toMatchSnapshot();
+    })
 })
