@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`group should keep this one 1`] = `"hello"`;
+exports[`group subgroup should keep this one 1`] = `"hello"`;
 
-exports[`group should update this one 1`] = `"bonjour"`;
+exports[`group subgroup should update this one 1`] = `"bonjour"`;
